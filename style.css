@@ -334,8 +334,8 @@ div{
 }
 
 /* 必須 */
-.contact-spam {
-  color: #2222;
+.contact-span {
+  color: #ce2222;
   margin: 0 0 0 20px;
   font-weight: bold;
 }
