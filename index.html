@@ -267,7 +267,13 @@
       <section id="contact">
         <h2 class="index-h2">CONTACT</h2>
         <h3>お問い合わせ</h3>
-        <form>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+          <input type="text" name="honeypot" style="display:none">
+          <input type="hidden" name="accessKey" value="265df98e-0bec-4808-b7c1-ca2df7098e29">
+          <input type="hidden" name="subject" value="Contact us from - example.com" />
+          <input type="hidden" name="replyTo" value="letricot1229@yahoo.cojp">
+          <input type="hidden" name="redirectTo" value="">
+          <input type="submit" value="Submit" />
           <div>
             <div class="contact-heading">
               <label class="contact-label">お名前<span classs="contact-span">必須</span></label>
